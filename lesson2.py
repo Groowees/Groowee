@@ -28,10 +28,13 @@
 # print(n3)
 # result = n1 + n2 + n3
 # print(result)
-# name = input("Enter your name: ")
+#
+
+name = input("Enter your name: ")
 # age = input("Enter your age: ")
 # print(name + str(age))
 #
+
 
 # number = int(input("Enter a number: "))
 # n1 = number // 1000
@@ -44,6 +47,8 @@
 # print(n4)
 # result = n1 + n2 + n3 + n4
 # # print(result)
+
+
 #  12345
 number = int(input("Enter a number: "))
 n1 = number % 10
