@@ -30,21 +30,23 @@
 # print(result)
 #
 
-name = input("Enter your name: ")
+# name = input("Enter your name: ")
 # age = input("Enter your age: ")
 # print(name + str(age))
 #
 
 
-# number = int(input("Enter a number: "))
-# n1 = number // 1000
-# n2 = number % 1000 // 100
-# n3 = number % 100 //10
-# n4 = number % 10
-# print(n1)
-# print(n2)
-# print(n3)
-# print(n4)
+number = int(input("Enter a number: "))
+n1 = number // 1000
+n2 = number % 1000 // 100
+n3 = number % 100 //10
+n4 = number % 10
+print(n1)
+print(n2)
+print(n3)
+print(n4)
+
+
 # result = n1 + n2 + n3 + n4
 # # print(result)
 
