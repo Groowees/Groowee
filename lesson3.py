@@ -32,6 +32,18 @@ elif numer2 <= numer1 <= numer3:
 elif numer3 <= numer1 <= numer2:
     print("number3")
 
+# # hours = int(input("Enter Hours: "))
+# # # if hours >= 12:
+# # #     print("PM")
+# # # else:
+# # #     print("AM")
+# # # #
+# # if 12 <= hours <= 24:
+# #     print("PM")
+# # elif 0 <= hours <= 12:
+# #     print("AM")
+# # else:
+
 
 
 
