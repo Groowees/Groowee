@@ -80,7 +80,15 @@ num1, num2 = [5, 8, 13], [13, 8, 5]
 print(num1, num2)
 num1.insert(0,13)
 num2.insert(0, 5)
-print(num1[:3], num2[:3])
-#
+x = num1.pop(3)
+y = num2.pop(3)
+print(num1, num2)
 # #
+num1, num2 = [5, 8, 13], [13, 8, 5]
+print(num1, num2)
+num1.insert(0,13)
+num2.insert(0, 5)
+print(num1[:3], num2[:3])
 #  Домашнее задание номер3
+
+
