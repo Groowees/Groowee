@@ -55,25 +55,34 @@
 #
 # print(number_a)
 
-number1 = int(input("Enter a first number: "))
-simbol =  str(input("Enter a simbol: "))
-number2 =  int(input("Enter a second number: "))
-match simbol:
-    case "-" :
-        print(number1 - number2)
-    case "+" :
-        print(number1 + number2)
-    case "*" :
-        print(number1 * number2)
-if simbol == "/" :
-    if number1 > 0 and number2 > 0:
-        print(number1 / number2)
-    else:
-        print("Incorrect input")
+
+
+## Простейший калькулятор
+# number1 = int(input("Enter a first number: "))
+# simbol =  str(input("Enter a simbol: "))
+# number2 =  int(input("Enter a second number: "))
+# match simbol:
+#     case "-" :
+#         print(number1 - number2)
+#     case "+" :
+#         print(number1 + number2)
+#     case "*" :
+#         print(number1 * number2)
+# if simbol == "/" :
+#     if number1 > 0 and number2 > 0:
+#         print(number1 / number2)
+#     else:
+#         print("Incorrect input")
+# #
+
+# # Домашнее задание номер 2
+# num1, num2 = [5, 8, 13], [13, 8, 5]
+# print(num1, ">=", num2)
+# print("[1] >= [1]")
+# print("[] >= []")
+# num1.insert(0,13)
+# num2.insert(0, 5)
+# print(num1[:3], ">=", num2[:3])
+# #
+# #
 #
-
-
-
-
-
-
