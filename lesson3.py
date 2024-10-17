@@ -75,20 +75,26 @@
 #         print("Incorrect input")
 # #
 
-# # Домашнее задание номер 2
-num1, num2 = [5, 8, 13], [13, 8, 5]
-print(num1, num2)
-num1.insert(0,13)
-num2.insert(0, 5)
-num1.pop(3)
-num2.pop(3)
-print(num1, num2)
-# #
-num1, num2 = [5, 8, 13], [13, 8, 5]
-print(num1, num2)
-num1.insert(0,13)
-num2.insert(0, 5)
-print(num1[:3], num2[:3])
+# # # Домашнее задание номер 2
+# num1, num2 = [5, 8, 13], [13, 8, 5]
+# print(num1, num2)
+# num1.insert(0,13)
+# num2.insert(0, 5)
+# num1.pop(3)
+# num2.pop(3)
+# print(num1, num2)
+# # #
+# num1, num2 = [5, 8, 13], [13, 8, 5]
+# print(num1, num2)
+# num1.insert(0,13)
+# num2.insert(0, 5)
+# print(num1[:3], num2[:3])
+
+
 #  Домашнее задание номер3
-
-
+lists = [22, 2, 3]
+lists += [1, 2, 3, 4]  # numbers = numbers + [1, 2, 3, 4]
+print(lists)
+list1 = lists[:4]
+list2 = lists[4:]
+print(list1, list2)
